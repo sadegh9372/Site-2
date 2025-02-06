@@ -5,50 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up page</title>
     <link rel="stylesheet" href="/Css/SignUp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
+<div class="navbar">
+    <a href="#"><i class="fas fa-user"></i>Users</a>
+    <a href="/Html/Site.html"><i class="fas fa-home"></i>Home</a>
+    <a href="#"><i class="fas fa-cogs"></i>Our Servics</a>
+</div>
  <div class="all">
     <form action="#" class="form">
-    
         <legend>Sign Up</legend>
-        <p>Already registered? <a href="test7.html">Sign in</a></p>
+        <p>Already registered? <a href="#">Sign in</a></p>
         <label for="firstname"></label>
         <input id="firstname" name="firstname" type="text" placeholder="your first name..." autocomplete="off">
         <label for="lastname"></label>
         <input id="lastname" name="lastname" type="text" placeholder="your last name..." readonly>
         <label for="number"></label>
-        <input id="number" name="number" type="tel" placeholder="your number..." required>
+        <input id="number" name="number" type="tel" required>
         <label for="email"></label>
-        <input id="email" name="email" type="email" placeholder="your email..." required>
+        <input id="email" name="email" type="email" required>
         <label for="pass"></label>
-        <input id="pass" name="pass" type="password" placeholder="your password..." required>
-        <input type="button" value="Countiue">
-        
+        <input id="pass" name="pass" type="password" required><button id="show-button" type="button" title="Show password"></button>
+        <input type="button" value="Countiue">   
     </form>   
  </div>
- <p>By joining the site, you have accepted all the rules and conditions of using <a href="test7-1-1.html">HUBBLE</a> services.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</html>
+ <p>By joining the site, you have accepted all the rules and conditions of using <a href="/Html/Details.html">HUBBLE</a> services.</p>
+ <script src="/JavaScript/SignUp.js"></script>
+ </html>
 </body>
