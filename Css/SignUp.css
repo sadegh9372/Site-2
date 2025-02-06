@@ -1,0 +1,66 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url('/image/jeremy-thomas-E0AHdsENmDg-unsplash\ \(1\).jpg');
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: large;
+    margin-top: 10%;
+}
+
+.all input{
+    
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+}
+
+p {
+    background-color: rgb(14, 14, 14, 0.2);
+}
+ .form {
+    opacity: 0.9;
+}
+
+.all legend, p {
+    color: aliceblue;
+}
+
+.all input[type="button"] {
+    background-color:rgb(33, 112, 92);
+}
+
+.all input[type="button"]:hover {
+    background-color:rgb(29, 95, 78);
+    cursor: pointer;
+}
+
+.all a {
+    text-decoration: none;
+    color:rgb(228, 236, 234);
+}
+
+.all a:hover {
+    font-size: large;
+    color: rgb(46, 168, 195);
+}
+p {
+    text-align: center;
+}
+
+p a{
+    text-decoration: none;
+    color:rgb(210, 218, 216);
+}
+
+p a:hover {
+    color: rgb(46, 168, 195);
+}

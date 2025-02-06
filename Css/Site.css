@@ -1,0 +1,108 @@
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(97, 106, 103, 1.0);
+    background-image: url('/image/jeremy-thomas-E0AHdsENmDg-unsplash\ \(1\).jpg');
+   
+}
+
+.nav-link a {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 8px 10px;
+}    
+
+.nav-link {
+    text-decoration:none;
+    text-align: center;   
+}
+
+.hero {
+    height:100vh;
+    width: 100vw;
+}
+.text {
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+    
+}
+.h {
+    font: 55px bold arial;
+    text-shadow: 10px white;
+    
+
+}
+.p {
+    font: 28px bold arial;
+    background-size: 5px;
+    background-color: rgb(0, 0, 0, 0.5);
+    
+}
+.my-body {
+    text-align: center;
+    font-size: large;
+}
+
+.my-body p{
+    color: rgb(255, 255, 255);
+}
+.form1 {
+    
+    text-align: center;
+    font-size: large;
+    
+}
+.form2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form2 input{
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 18px;
+    margin-top: 7px;
+
+}
+input[type="button"]{ 
+    background-color: rgb(33, 112, 92);
+    color: white;
+    border: none;
+}
+input[type="button"]:hover {
+    background-color: rgb(13, 100, 78);
+    cursor:pointer;
+}
+.sign {
+    padding-top: 8px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.5);
+
+}
+.sign p {
+    color: white;
+}
+.form1 a {
+    text-decoration: none;
+    color: rgb(237, 243, 242);
+}
+
+.footer{
+    background-color: rgb(20, 20, 20, 0.2);
+    color: white;
+}
+.form1 a:hover{
+    color: rgb(46, 168, 195);
+}
+.sign #large {
+    font-size: larger;
+}

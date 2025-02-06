@@ -1,0 +1,15 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url("/image/jeremy-thomas-E0AHdsENmDg-unsplash\ \(1\).jpg");
+}
+
+.all {
+    margin-left: 3px;
+    margin-right: 3px; 
+}
+.all p, .list{
+    font-size: medium;
+    background-color: rgb(9, 9, 9, 0.2);
+    color: rgb(244, 244, 244);
+}
